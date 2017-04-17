@@ -1,0 +1,25 @@
+td{
+
+	paddind-left: 10px;
+	paddind-top: 20px;
+	paddind-bottom: 20px;
+	paddind-right: 10px;
+}
+
+.d1{
+	background: red;
+  border: solid black 2px;
+  margin: 30px;
+  padding: 20px;
+  width: 50%;
+  height: 300px;
+}
+
+.d2{
+	background-color: green;
+  border: solid blue 10px;
+  margin: 60px;
+  padding: 20px;
+  width: 50%;
+  heigh: 100;
+}
