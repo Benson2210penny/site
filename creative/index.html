@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+    <!-- <meta http-equiv="refresh" content="0;url=creative/index.html" /> -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -68,7 +68,7 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
+    <header class="top-content">
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
@@ -274,7 +274,16 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
-
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.top-content').backstretch([
+           "img/header.jpg"
+         , "img/12.jpg"
+         , "img/13.jpg"
+         ], {duration: 3000, fade: 750});
+      });
+    </script>
 </body>
 
 </html>
