@@ -2,23 +2,14 @@
 <html lang="en">
 
 <head>
-
+    <!-- <meta http-equiv="refresh" content="0;url=creative/index.html" /> -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="學員">
-    <meta name="keywords" content="榴槤,西瓜,鳳梨,荔枝">
-    <meta name="description" content="好吃水果專賣店，訂購專線(日)06-595-8399、(夜)06-213-7399(行動)0916-055028、0970-426206，台南市大市場內67號">
-    <meta name="robots" content="index,follow">
-    <meta name="rating" content="general">
-    <meta name="author" content="好吃工作室">
-    <meta name="generator" content="XOOPS">
-    <meta property="og:title" content="好吃水果專賣店" >
-    <meta property="og:url" content=" https://benson2210penny.github.io/site/">
-    <meta property="og:image" content="https://benson2210penny.github.io/site/creative/img/portfolio/fullsize/3.jpg">
-    <meta property="og:description" content="榴槤專賣店" >
-    <title>Creative - 好吃水果</title>
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -68,7 +59,7 @@
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">接洽</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -77,7 +68,7 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
+    <header class="top-content">
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
@@ -283,7 +274,16 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
-
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.top-content').backstretch([
+           "img/header.jpg"
+         , "img/12.jpg"
+         , "img/13.jpg"
+         ], {duration: 3000, fade: 750});
+      });
+    </script>
 </body>
 
 </html>
